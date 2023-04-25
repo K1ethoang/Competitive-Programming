@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+/*
+    Link problem: https://codeforces.com/contest/1822/problem/A
+    Completion time: Apr/25/2023 13:49
+ */
 int main()
 {
     ios_base::sync_with_stdio(0);
@@ -21,14 +24,14 @@ int main()
         int res = -1, lE = 0;
         for (int i = 0; i < n; i++)
         {
-            if (b[i] > lE)
+            int tempK = k - i - a[i];
+            if (tempK >= 0)
             {
-                lE = b[i];
-                int tempK = k - i - a[i];
-                if (tempK >= 0)
+                if (b[i] > lE)
+                {
+                    lE = b[i];
                     res = i + 1;
-                else
-                    break;
+                }
             }
         }
         cout << res << endl;
