@@ -62,10 +62,37 @@ using namespace std;
 #define sy cout << "YES" << endl
 #define sn cout << "NO" << endl
 #define pause system("pause")
-
+/*
+    Link problem: https://cses.fi/problemset/task/1071/
+    Completion time: 2023-05-03 00:19:17
+ */
 int main()
 {
     faster();
+    test()
+    {
+        ll row, col;
+        cin >> row >> col;
+        ll anchor = max(row, col);
+        ll anchorVal = anchor * (anchor - 1) + 1;
+        ll res = anchorVal;
+        ll distance = anchor - min(row, col);
+        if (anchor % 2 == 0)
+        {
+            if (row < anchor)
+                res = anchorVal - distance;
+            else if (col < anchor)
+                res = anchorVal + distance;
+        }
+        else
+        {
+            if (row < anchor)
+                res = anchorVal + distance;
+            else if (col < anchor)
+                res = anchorVal - distance;
+        }
+        cout << res << endl;
+    }
 
     return 0;
 }
