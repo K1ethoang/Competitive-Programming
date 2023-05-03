@@ -63,10 +63,21 @@ using namespace std;
 #define sn cout << "NO" << endl
 #define pause system("pause")
 #define MOD 1000000007
-
+/*
+    Link problem: https://cses.fi/problemset/task/1617/
+    Completion time: 2023-05-03 20:13:23
+ */
 int main()
 {
     faster();
-
+    ll n;
+    cin >> n;
+    ll res = 1;
+    while (n--)
+    {
+        res = res * 2;
+        res = res % MOD;
+    }
+    cout << res;
     return 0;
 }
