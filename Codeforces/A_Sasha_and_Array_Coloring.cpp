@@ -63,10 +63,30 @@ using namespace std;
 #define sn cout << "NO" << endl
 #define pause system("pause")
 const ll MOD = (int)10e9 + 7;
-
+/*
+    Link problem: https://codeforces.com/contest/1843/problem/A
+    Completion time: Jun/21/2023 14:05 (UTC+7)
+ */
 int main()
 {
     faster();
-
+    test()
+    {
+        int n;
+        ll sum = 0;
+        cin >> n;
+        vi v(n);
+        For(i, 0, n)
+        {
+            cin >>
+                v[i];
+        }
+        Sort(v);
+        For(i, 0, n / 2)
+        {
+            sum += v[n - i - 1] - v[i];
+        }
+        cout << sum << endl;
+    }
     return 0;
 }
