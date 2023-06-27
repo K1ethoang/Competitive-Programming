@@ -63,7 +63,10 @@ using namespace std;
 #define sn cout << "NO" << endl
 #define pause system("pause")
 const ll MOD = (int)10e9 + 7;
-
+/*
+    Link problem:
+    Completion time:
+ */
 int main()
 {
     faster();
