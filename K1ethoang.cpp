@@ -64,7 +64,7 @@ using namespace std;
 #define pause system("pause")
 const ll MOD = (int)10e9 + 7;
 /*
-    Link problem:
+    Problem:
     Completion time:
  */
 int main()
