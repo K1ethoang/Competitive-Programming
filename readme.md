@@ -1,4 +1,4 @@
-# Nơi luyện tập giải thuật
+# Competitive Programming
 
 ## Profile
 - ### [CSES](https://cses.fi/user/163918);
