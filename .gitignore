@@ -2,4 +2,3 @@
 .vscode
 *.exe
 *.bin
-./node_modules
