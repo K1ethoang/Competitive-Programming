@@ -52,8 +52,8 @@ using namespace std;
 #define vi vector<int>
 #define vll vector<ll>
 #define all(p) p.begin(), p.end()
-#define For(i, a, b) for (int i = a; i < b; i++)
-#define Fori(i, a, b) for (int i = b - 1; i >= a; i--)
+#define For(i, a, b) for (int i = a; i < b; ++i)
+#define Fori(i, a, b) for (int i = b - 1; i >= a; --i)
 #define Sort(p) sort(all(p))
 #define Sortr(p) sort(p.rbegin(), p.rend())
 #define rev(p) reverse(all(p))
