@@ -64,8 +64,8 @@ using namespace std;
 #define pause system("pause")
 const ll MOD = (int)10e9 + 7;
 /*
-    Problem:
-    Completion time:
+    Problem: https://cses.fi/problemset/task/1755/
+    Completion time: 2023-11-18 13:46:05
  */
 
 bool isPalindrome(string s)
