@@ -59,6 +59,7 @@ using namespace std;
 #define rev(p) reverse(all(p))
 #define FILEIN freopen("input.txt", "r", stdin)
 #define FILEOUT freopen("output.txt", "w", stdout)
+#define endl "\n"
 #define sy cout << "YES" << endl
 #define sn cout << "NO" << endl
 #define pause system("pause")
