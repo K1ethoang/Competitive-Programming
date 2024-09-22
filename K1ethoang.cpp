@@ -73,7 +73,9 @@ const ll MOD = (int)10e9 + 7;
 int main()
 {
     faster();
-
+    test()
+    {
+        }
     return 0;
 }
 /*
