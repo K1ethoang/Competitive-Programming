@@ -75,7 +75,7 @@ int main()
     faster();
     test()
     {
-        }
+    }
     return 0;
 }
 /*
